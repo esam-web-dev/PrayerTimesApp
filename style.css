@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+
+body {
+  background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ContainerDiv {
+  padding: 20px;
+  background-color: #2f2f3f;
+  margin: 20px auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  min-height: 400px;
+  width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.ContainerDiv:hover {
+  transform: scale(1.02);
+}
+
+.ContainerDiv div {
+  padding: 12px;
+  margin: 10px 0;
+  background: #3c3c50;
+  border-radius: 10px;
+  color: #e2e2e2;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ContainerDiv div span {
+  color: #00c896;
+  font-weight: bold;
+}
+
+ .cityInput {
+  width: 80%;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #1e1e2f;
+  color: #f5f5f5;
+  font-size: 16px;
+}
+
+.Btn {
+  margin-top: 15px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #00c896;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.Btn:hover {
+  background: #00a87a;
+}
+
+.divFlex {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 500px;
+}
