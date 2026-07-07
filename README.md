@@ -1,23 +1,45 @@
-# PrayerTimesApp
-
-A Prayer Times application built with HTML, CSS, and JavaScript that displays accurate prayer times based on the user’s selected location. It supports different calculation methods and offers a user-friendly interface.
-
-## Features
-
-- Displays daily prayer times
-- Supports multiple calculation methods
-- User location based timings
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-
-## How to Use
-
-Select your location to view accurate prayer times for each day.
+# 🕌 Prayer Times App  
+A clean and responsive **HTML, CSS, and JavaScript** application that displays accurate daily prayer times based on the user's selected city.  
+The app uses a reliable prayer time API and provides a simple, user-friendly interface for quick access to prayer schedules.
 
 ---
 
-⭐️ Created by [esam-web-dev](https://github.com/esam-web-dev)
+## 📸 Project Preview  
+Add your screenshot here after uploading it to GitHub:
+
+![App Preview](https://raw.githubusercontent.com/esam-web-dev/PrayerTimesApp/refs/heads/main/parerewb.jpeg)
+
+---
+
+## 🚀 Live Demo  
+🔗 https://esam-web-dev.github.io/PrayerTimesApp/
+
+---
+
+## ✨ Features  
+- 🕒 **Accurate daily prayer times**  
+- 🌍 **City selection dropdown**  
+- 🔄 **Auto-refresh for daily timings**  
+- 📱 **Fully responsive design**  
+- 🎨 **Clean and modern UI**  
+- ⚡ **Fast API requests using JavaScript (Axios or Fetch)**  
+- 🕌 **Supports multiple calculation methods**  
+- 🌙 **Shows Fajr, Dhuhr, Asr, Maghrib, and Isha times**
+
+---
+
+## 🛠️ Tech Stack  
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (ES6+)**  
+- **Prayer Times API**  
+- **GitHub Pages Deployment**
+
+---
+
+## 📦 Installation  
+To run the project locally:
+
+```bash
+git clone https://github.com/esam-web-dev/PrayerTimesApp.git
+cd PrayerTimesApp
