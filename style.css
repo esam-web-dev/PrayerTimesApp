@@ -82,3 +82,69 @@ body {
     align-items: center;
     width: 500px;
 }
+
+
+
+/* 📱 موبايل صغير */
+@media (max-width: 480px) {
+  body {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .divFlex {
+    width: 100%;
+  }
+
+  .ContainerDiv {
+    width: 90%;
+    min-height: auto;
+    padding: 15px;
+  }
+
+  .ContainerDiv div {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .cityInput {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .Btn {
+    width: 90%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .dateNaow h3 {
+    font-size: 18px;
+  }
+}
+
+/* 📱 موبايل متوسط */
+@media (max-width: 768px) {
+  .divFlex {
+    width: 100%;
+  }
+
+  .ContainerDiv {
+    width: 85%;
+  }
+
+  .cityInput {
+    width: 85%;
+  }
+
+  .Btn {
+    width: 85%;
+  }
+}
+
+/* 💻 شاشات كبيرة */
+@media (min-width: 1024px) {
+  .ContainerDiv {
+    width: 450px;
+  }
+}
